@@ -47,27 +47,28 @@ Level1.prototype.create = function () {
 	
 	var _groupCheer = this.add.group();
 	
-	var _prizeBanner = this.add.sprite(-5.0, -128.0, 'prizeBanner', null, _groupCheer);
+	var _prizeBanner = this.add.sprite(0.0, -128.0, 'prizeBanner', null, _groupCheer);
 	
-	var _cheerUpText = this.add.bitmapText(172.0, -89.0, 'PixelFont', 'Excelent', 64, _groupCheer);
+	var _cheerUpText = this.add.bitmapText(195.0, -89.0, 'PixelFont', 'Excelent', 64, _groupCheer);
+	_cheerUpText.align = 'center';
 	
-	var _visor = this.add.sprite(92.0, 0.0, 'visor');
+	var _visor = this.add.sprite(129.0, 0.0, 'visor');
 	
-	var _time = this.add.bitmapText(246.0, 48.0, 'PixelFont', '0', 64);
+	var _time = this.add.bitmapText(289.0, 48.0, 'PixelFont', '0', 64);
 	_time.maxWidth = 400;
 	
-	this.add.bitmapText(221.0, 116.0, 'PixelFont', 'Bounces', 32);
+	this.add.bitmapText(254.0, 116.0, 'PixelFont', 'Bounces', 32);
 	
 	var _deathBars = this.add.group();
 	
 	var _cesped = this.add.sprite(-22.0, 819.0, 'cesped');
 	_cesped.scale.set(1.0, 0.5);
 	
-	var _floor = this.add.sprite(-33.0, 845.0, 'floor');
+	var _floor = this.add.sprite(0.0, 845.0, 'floor');
 	
 	var _menuBtn = this.add.sprite(-1.0, 12.0, 'menuBtn');
 	
-	var _currentLevelText = this.add.bitmapText(155.0, 893.0, 'PixelFont', '- Novice -', 64);
+	var _currentLevelText = this.add.bitmapText(209.0, 893.0, 'PixelFont', '- Novice -', 64);
 	_currentLevelText.maxWidth = 800;
 	_currentLevelText.align = 'center';
 	

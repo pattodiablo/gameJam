@@ -1,7 +1,7 @@
 window.onload = function() {
 	
 		//var Pixelratio = window.screen.availWidth / 640;
-	  var width = 540  ;﻿﻿﻿
+	  var width = 640  ;﻿﻿﻿
 	  var height = 960 ;
 	  var firstRunLandscape = false;
 	  

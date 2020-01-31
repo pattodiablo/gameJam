@@ -95,7 +95,6 @@
                 "info": {
                   "editorName": "prizeBanner",
                   "editorField": true,
-                  "x": -5,
                   "y": -128
                 }
               },
@@ -106,10 +105,11 @@
                 "info": {
                   "editorName": "cheerUpText",
                   "editorField": true,
-                  "x": 172,
+                  "x": 195,
                   "y": -89,
                   "text": "Excelent",
-                  "fontSize": 64
+                  "fontSize": 64,
+                  "align": "center"
                 }
               }
             ]
@@ -122,7 +122,7 @@
           "info": {
             "editorName": "visor",
             "editorField": true,
-            "x": 92
+            "x": 129
           }
         },
         {
@@ -132,7 +132,7 @@
           "info": {
             "editorName": "time",
             "editorField": true,
-            "x": 246,
+            "x": 289,
             "y": 48,
             "text": "0",
             "fontSize": 64,
@@ -145,7 +145,7 @@
           "asset": "2",
           "info": {
             "editorName": "Time Survived",
-            "x": 221,
+            "x": 254,
             "y": 116,
             "text": "Bounces"
           }
@@ -179,7 +179,6 @@
           "info": {
             "editorName": "floor",
             "editorField": true,
-            "x": -33,
             "y": 845
           }
         },
@@ -201,7 +200,7 @@
           "info": {
             "editorName": "currentLevelText",
             "editorField": true,
-            "x": 155,
+            "x": 209,
             "y": 893,
             "text": "- Novice -",
             "fontSize": 64,
