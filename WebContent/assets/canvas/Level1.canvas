@@ -129,8 +129,8 @@
           "info": {
             "editorName": "menuBtn",
             "editorField": true,
-            "x": 70,
-            "y": 26
+            "x": 18,
+            "y": 24
           }
         },
         {
@@ -155,6 +155,65 @@
           "id": "6e0103a8-00a7-46cb-8dea-7d9905d49a29",
           "asset": "9",
           "info": {"editorName": "portal"}
+        },
+        {
+          "type": "group",
+          "id": "da601ca7-cf97-461b-882b-f2169b0dca92",
+          "info": {
+            "editorName": "casillas",
+            "editorField": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "172492f5-b03d-49fd-bf26-b15689e1b8d5",
+                "asset": "10",
+                "info": {
+                  "editorName": "casilla1",
+                  "editorField": true,
+                  "x": 121,
+                  "y": 832,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "image",
+                "id": "6dfbead3-f24a-48d6-bc25-312f158ed30f",
+                "asset": "10",
+                "info": {
+                  "editorName": "casilla2",
+                  "editorField": true,
+                  "x": 230,
+                  "y": 837,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "image",
+                "id": "e62b53cf-eebf-4f16-bc47-0f65745376ae",
+                "asset": "10",
+                "info": {
+                  "editorName": "casilla3",
+                  "editorField": true,
+                  "x": 344,
+                  "y": 837,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "image",
+                "id": "49b89035-13bd-4992-8f1b-6044df1c8171",
+                "asset": "10",
+                "info": {
+                  "editorName": "casilla4",
+                  "editorField": true,
+                  "x": 454,
+                  "y": 835,
+                  "alpha": 0
+                }
+              }
+            ]
+          }
         },
         {
           "type": "group",
@@ -220,6 +279,11 @@
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "portal"
+    },
+    "10": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "casilla"
     }
   },
   "prefab-table": {}

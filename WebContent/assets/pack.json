@@ -215,6 +215,18 @@
       "key": "portal",
       "url": "assets/images/portal.png",
       "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "casilla",
+      "url": "assets/images/casilla.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ship1",
+      "url": "assets/images/ship1.png",
+      "overwrite": false
     }
   ],
   "Fonts": [{
@@ -226,7 +238,7 @@
     "ySpacing": 0
   }],
   "meta": {
-    "generated": "1580536079293",
+    "generated": "1580569266049",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",
