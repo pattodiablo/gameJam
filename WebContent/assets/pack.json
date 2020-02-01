@@ -167,6 +167,54 @@
       "key": "how11",
       "url": "assets/images/how1.jpg",
       "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza1",
+      "url": "assets/images/pieza1.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza2",
+      "url": "assets/images/pieza2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza3",
+      "url": "assets/images/pieza3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza4",
+      "url": "assets/images/pieza4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "hangar",
+      "url": "assets/images/hangar.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "fusion",
+      "url": "assets/images/fusion.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pista",
+      "url": "assets/images/pista.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "portal",
+      "url": "assets/images/portal.png",
+      "overwrite": false
     }
   ],
   "Fonts": [{
@@ -178,7 +226,7 @@
     "ySpacing": 0
   }],
   "meta": {
-    "generated": "1579542352405",
+    "generated": "1580536079293",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",

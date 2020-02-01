@@ -116,8 +116,8 @@ Intro.prototype.myCreate = function () {
 	    
 	 function startGame(){
 	 		 IntroMusic.stop('IntroMusic');
-		 this.game.state.start('Instructions');
-		 
+		 //this.game.state.start('Instructions');
+		  this.game.state.start('Level1');
 	 }
 	
 };

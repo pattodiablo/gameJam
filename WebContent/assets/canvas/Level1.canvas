@@ -51,30 +51,26 @@
           "info": {"editorName": "bg"}
         },
         {
-          "type": "group",
-          "id": "68e87175-220f-48bb-8710-0917efb53aa8",
+          "type": "image",
+          "id": "4f32d4bf-a57e-4b9c-93b1-de4428f244f3",
+          "asset": "1",
+          "info": {"editorName": "hangar"}
+        },
+        {
+          "type": "image",
+          "id": "31b1988b-0f8b-4aaa-b2d4-f6d6e0cdce3f",
+          "asset": "2",
           "info": {
-            "editorName": "breakedPlatforms",
-            "editorField": true,
-            "setAll": [],
-            "children": []
+            "editorName": "pista",
+            "x": 202,
+            "y": 55
           }
         },
         {
           "type": "group",
-          "id": "052e9ced-1b10-4f4e-90eb-9687230c416e",
+          "id": "dad8cded-7418-4aae-9d84-863b8854bfbc",
           "info": {
-            "editorName": "platforms",
-            "editorField": true,
-            "setAll": [],
-            "children": []
-          }
-        },
-        {
-          "type": "group",
-          "id": "929044ac-920f-43dd-af9c-ad8b2d2903a7",
-          "info": {
-            "editorName": "luckyBalls",
+            "editorName": "piezasLeft",
             "editorField": true,
             "setAll": [],
             "children": []
@@ -91,7 +87,7 @@
               {
                 "type": "image",
                 "id": "871124d9-1dfa-47db-800a-f4dc41acd678",
-                "asset": "1",
+                "asset": "3",
                 "info": {
                   "editorName": "prizeBanner",
                   "editorField": true,
@@ -101,7 +97,7 @@
               {
                 "type": "bitmapText",
                 "id": "834132a2-ae80-4504-b02d-ec35d241328c",
-                "asset": "2",
+                "asset": "4",
                 "info": {
                   "editorName": "cheerUpText",
                   "editorField": true,
@@ -118,68 +114,12 @@
         {
           "type": "image",
           "id": "57766c55-dda3-47eb-b3db-6862641e4584",
-          "asset": "3",
+          "asset": "5",
           "info": {
             "editorName": "visor",
             "editorField": true,
-            "x": 129
-          }
-        },
-        {
-          "type": "bitmapText",
-          "id": "c25aedb3-ac9b-4fad-8409-6a97218a2d62",
-          "asset": "2",
-          "info": {
-            "editorName": "time",
-            "editorField": true,
-            "x": 289,
-            "y": 48,
-            "text": "0",
-            "fontSize": 64,
-            "maxWidth": 400
-          }
-        },
-        {
-          "type": "bitmapText",
-          "id": "eb01c52f-6737-4c04-8bed-10f3b24a2eec",
-          "asset": "2",
-          "info": {
-            "editorName": "Time Survived",
-            "x": 254,
-            "y": 116,
-            "text": "Bounces"
-          }
-        },
-        {
-          "type": "group",
-          "id": "4164e0b2-4983-46ef-a918-af58c7fcb32e",
-          "info": {
-            "editorName": "deathBars",
-            "editorField": true,
-            "setAll": [],
-            "children": []
-          }
-        },
-        {
-          "type": "image",
-          "id": "1fc37025-5189-4128-99b4-2da2ba009cce",
-          "asset": "4",
-          "info": {
-            "editorName": "cesped",
-            "editorField": true,
-            "x": -22,
-            "y": 819,
-            "scale.y": 0.5
-          }
-        },
-        {
-          "type": "image",
-          "id": "4929cc82-021a-41dd-b4e0-2ff64be44980",
-          "asset": "5",
-          "info": {
-            "editorName": "floor",
-            "editorField": true,
-            "y": 845
+            "x": 4,
+            "y": -120
           }
         },
         {
@@ -189,35 +129,41 @@
           "info": {
             "editorName": "menuBtn",
             "editorField": true,
-            "x": -1,
-            "y": 12
-          }
-        },
-        {
-          "type": "bitmapText",
-          "id": "3e36da95-8132-4691-9722-a52e9c9eb22d",
-          "asset": "2",
-          "info": {
-            "editorName": "currentLevelText",
-            "editorField": true,
-            "x": 209,
-            "y": 893,
-            "text": "- Novice -",
-            "fontSize": 64,
-            "maxWidth": 800,
-            "align": "center"
+            "x": 70,
+            "y": 26
           }
         },
         {
           "type": "image",
-          "id": "8c261626-c96f-4f6e-b4d1-40bf2e05a887",
+          "id": "4e765ec9-b8dd-4961-9b70-011794301184",
           "asset": "7",
+          "info": {"editorName": "fusion"}
+        },
+        {
+          "type": "image",
+          "id": "4929cc82-021a-41dd-b4e0-2ff64be44980",
+          "asset": "8",
           "info": {
-            "editorName": "megaBall",
+            "editorName": "floor",
             "editorField": true,
-            "x": 306,
-            "y": -285,
-            "data": "this.data={\npowerballs:1\n}"
+            "y": 678,
+            "alpha": 0
+          }
+        },
+        {
+          "type": "image",
+          "id": "6e0103a8-00a7-46cb-8dea-7d9905d49a29",
+          "asset": "9",
+          "info": {"editorName": "portal"}
+        },
+        {
+          "type": "group",
+          "id": "662cb794-501a-4997-87e9-4fa0b75d7073",
+          "info": {
+            "editorName": "draggedPieza",
+            "editorField": true,
+            "setAll": [],
+            "children": []
           }
         }
       ]
@@ -233,27 +179,27 @@
     "1": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "prizeBanner"
+      "asset": "hangar"
     },
     "2": {
       "file": "WebContent/assets/pack.json",
-      "section": "Fonts",
-      "asset": "PixelFont"
+      "section": "graphics",
+      "asset": "pista"
     },
     "3": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "visor"
+      "asset": "prizeBanner"
     },
     "4": {
       "file": "WebContent/assets/pack.json",
-      "section": "graphics",
-      "asset": "cesped"
+      "section": "Fonts",
+      "asset": "PixelFont"
     },
     "5": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "floor"
+      "asset": "visor"
     },
     "6": {
       "file": "WebContent/assets/pack.json",
@@ -263,7 +209,17 @@
     "7": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "megaBall"
+      "asset": "fusion"
+    },
+    "8": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "floor"
+    },
+    "9": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "portal"
     }
   },
   "prefab-table": {}
