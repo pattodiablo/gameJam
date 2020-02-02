@@ -76,15 +76,16 @@ Intro.prototype.myCreate = function () {
 	
 
 	IntroMusic = this.game.add.audio('IntroMusic');
+
 	IntroMusic.allowMultiple = false;
-	IntroMusic.addMarker('IntroMusic', 0, 28.74);
+	IntroMusic.addMarker('IntroMusic', 0, 53);
 	
 	this.game.input.onUp.addOnce(doMusic, this);
 	
 	function doMusic(){
 		
 		 IntroMusic.play('IntroMusic');
-	
+		IntroMusic.loop = true;
 	//player.sounds.fxCoin.play("coin");
 	
 	 this.startButton = this.game.add.button(this.game.width/2, 955.0, 'playBtn', startGame, this, 2, 1, 0);
@@ -117,7 +118,7 @@ Intro.prototype.myCreate = function () {
 	 function startGame(){
 	 		 IntroMusic.stop('IntroMusic');
 		 //this.game.state.start('Instructions');
-		  this.game.state.start('Level1');
+		  this.game.state.start('Instructions');
 	 }
 	
 };

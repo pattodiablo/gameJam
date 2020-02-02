@@ -34,18 +34,21 @@ Instructions.prototype.preload = function () {
 	
 	this.myPreload();
 	
-	this.load.pack('graphics', 'assets/pack.json');
+
 	
 };
 
 Instructions.prototype.create = function () {
 	var _how = this.add.sprite(0.0, -3.0, 'how1');
 	
+	var _conteo = this.add.bitmapText(198.0, 378.0, 'PixelFont', 'READY', 90);
+	
 	
 	
 	// fields
 	
 	this.fHow = _how;
+	this.fConteo = _conteo;
 	
 	
 	this.myCreate();
@@ -66,44 +69,62 @@ Instructions.prototype.myPreload = function () {
 
 Instructions.prototype.update = function () {
 	
-	
+
 	
 };
 
 
 Instructions.prototype.myCreate = function (instructions) {
-	this.game.sound.mute = true;
+	this.game.sound.mute = false;
+
 	this.fHow.inputEnabled = true;
 	this.factor = -540; 
-	
-	this.startButton = this.game.add.button(this.factor, 855.0, 'playBtn', startGame, this, 2, 1, 0);
+	this.fConteo.visible = false;
+	this.startButton = this.game.add.button(this.factor, this.game.height/2 + 100, 'playBtn', startGame, this, 2, 1, 0);
 	this.startButton.anchor.set(0.5);
 	
 	this.fHow.events.onInputUp.add(function(pointer) {
+
+	conteoAtras = this.game.time.create(false);
+    conteoAtras.loop(1000, empezar, this);
+   	conteoAtras.start();	 
+
+	conteoAtras2 = this.game.time.create(false);
+    conteoAtras2.loop(3000, go, this);
+   	conteoAtras2.start();	 
+
 		
-		console.log("clicking");
+		//console.log("clicking");
 		move1 = this.game.add.tween(this.fHow);
 		move1.onComplete.addOnce(factorChange, this);
-		move1.to({x:this.factor}, 1080, Phaser.Easing.Bounce.Out);
+		move1.to({x:-800}, 1080, Phaser.Easing.Bounce.Out);
 		move1.start();
 		
-		
-		 pigArrives = this.game.add.tween( this.startButton);
-		    
-		    pigArrives.to({x:this.factor + 760}, 1080, Phaser.Easing.Bounce.Out);
+	
 
-		    pigArrives.start();
 		
+		function empezar(){
+			conteoAtras.stop();
+			this.fConteo.visible = true;
+
+		}
+
+		function go(){
+			conteoAtras2.stop();
+			 this.game.state.start('Level1');
+
+		}
+		    
 		    
 		
 		function factorChange(){
 			switch (this.factor){
 			
-			case -640:
+			case -740:
 				this.factor = 0;
 				break;
 			case 0:
-				this.factor = -640;
+				this.factor = -740;
 				break;
 				
 			
@@ -119,7 +140,8 @@ Instructions.prototype.myCreate = function (instructions) {
 		  this.game.state.start('Level1');
 	 
 	  } 
-	 
+
+
 	    
 	
 	

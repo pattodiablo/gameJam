@@ -114,21 +114,10 @@ window.onload = function() {
 	this.game.load.audio('despegue', ['assets/audio/despegue.mp3','assets/audio/despegue.ogg']);
 	this.game.load.audio('bien_hecho', ['assets/audio/bien_hecho.mp3','assets/audio/bien_hecho.ogg']);
 	this.game.load.audio('perder_vida', ['assets/audio/perder_vida.mp3','assets/audio/perder_vida.ogg']);
-
-		};
-
-		LoaderTime.prototype.create = function () {
-
-        game.state.start("Intro");
-		};
+	this.game.load.audio('TutorialMusic', ['assets/audio/tutorial.mp3','assets/audio/tutorial.ogg']);
 
 
-	var play = function(){};
-	
-	play.prototype = {
-			
-			preload:function(){
-			
+
 				firstRunLandscape = game.scale.isGameLandscape;
 				if(game.device.desktop){
 					game.scale.forceOrientation(false, false);
@@ -139,17 +128,8 @@ window.onload = function() {
 				
 				game.scale.enterIncorrectOrientation.add(handleIncorrect);
 				game.scale.leaveIncorrectOrientation.add(handleCorrect);
-				
-			},
-			create:function(){
-				game.state.start("Intro",true,true);
-					
-			}
-			
-	};
-	
 
-	function handleIncorrect(){
+				function handleIncorrect(){
      	if(!game.device.desktop){
      		document.getElementById("turn").style.display="block";
      	}
@@ -168,6 +148,18 @@ window.onload = function() {
 			document.getElementById("turn").style.display="none";
 		}
 	}
+
+		};
+
+		LoaderTime.prototype.create = function () {
+
+        game.state.start("Intro");
+		};
+
+
+	
+
+	
 	// Add the States your game has.
 	// game.state.add("Boot", Boot);
 	// game.state.add("Menu", Menu);
@@ -177,7 +169,7 @@ window.onload = function() {
 	game.state.add("Level1", Level1);
 	game.state.add("Intro", Intro);
 	game.state.add("Instructions", Instructions);
-	game.state.add("Play",play);
+
 	game.state.start("Boot",true,true);
 
 };
