@@ -86,44 +86,9 @@
           }
         },
         {
-          "type": "group",
-          "id": "8c36d33e-da03-4028-b295-32d3848d0a37",
-          "info": {
-            "editorName": "groupCheer",
-            "editorField": true,
-            "setAll": [],
-            "children": [
-              {
-                "type": "image",
-                "id": "871124d9-1dfa-47db-800a-f4dc41acd678",
-                "asset": "4",
-                "info": {
-                  "editorName": "prizeBanner",
-                  "editorField": true,
-                  "y": -128
-                }
-              },
-              {
-                "type": "bitmapText",
-                "id": "834132a2-ae80-4504-b02d-ec35d241328c",
-                "asset": "5",
-                "info": {
-                  "editorName": "cheerUpText",
-                  "editorField": true,
-                  "x": 241,
-                  "y": -89,
-                  "text": "Excelent",
-                  "fontSize": 64,
-                  "align": "center"
-                }
-              }
-            ]
-          }
-        },
-        {
           "type": "image",
           "id": "e0baf6ab-1289-4c70-8128-5e288b9266b1",
-          "asset": "6",
+          "asset": "4",
           "info": {
             "editorName": "menuBtn",
             "editorField": true,
@@ -134,7 +99,7 @@
         {
           "type": "image",
           "id": "4929cc82-021a-41dd-b4e0-2ff64be44980",
-          "asset": "7",
+          "asset": "5",
           "info": {
             "editorName": "floor",
             "editorField": true,
@@ -145,7 +110,7 @@
         {
           "type": "image",
           "id": "6e0103a8-00a7-46cb-8dea-7d9905d49a29",
-          "asset": "8",
+          "asset": "6",
           "info": {"editorName": "portal"}
         },
         {
@@ -169,7 +134,7 @@
               {
                 "type": "image",
                 "id": "172492f5-b03d-49fd-bf26-b15689e1b8d5",
-                "asset": "9",
+                "asset": "7",
                 "info": {
                   "editorName": "casilla1",
                   "editorField": true,
@@ -185,7 +150,7 @@
               {
                 "type": "image",
                 "id": "6dfbead3-f24a-48d6-bc25-312f158ed30f",
-                "asset": "9",
+                "asset": "7",
                 "info": {
                   "editorName": "casilla2",
                   "editorField": true,
@@ -200,7 +165,7 @@
               {
                 "type": "image",
                 "id": "e62b53cf-eebf-4f16-bc47-0f65745376ae",
-                "asset": "9",
+                "asset": "7",
                 "info": {
                   "editorName": "casilla3",
                   "editorField": true,
@@ -215,7 +180,7 @@
               {
                 "type": "image",
                 "id": "49b89035-13bd-4992-8f1b-6044df1c8171",
-                "asset": "9",
+                "asset": "7",
                 "info": {
                   "editorName": "casilla4",
                   "editorField": true,
@@ -233,7 +198,7 @@
         {
           "type": "image",
           "id": "06845c29-c115-4029-8253-936971a9860a",
-          "asset": "10",
+          "asset": "8",
           "info": {
             "editorName": "fusionApagado",
             "editorField": true
@@ -242,7 +207,7 @@
         {
           "type": "image",
           "id": "4e765ec9-b8dd-4961-9b70-011794301184",
-          "asset": "11",
+          "asset": "9",
           "info": {
             "editorName": "fusion",
             "editorField": true
@@ -251,7 +216,7 @@
         {
           "type": "image",
           "id": "3b95605d-67bd-4693-8e6e-51d7e0ea6df1",
-          "asset": "9",
+          "asset": "7",
           "info": {
             "editorName": "generarBtn",
             "editorField": true,
@@ -274,7 +239,7 @@
         {
           "type": "image",
           "id": "7151c89e-5ba5-4ce7-abd7-1731816cdd2f",
-          "asset": "12",
+          "asset": "10",
           "info": {
             "editorName": "cuadroVidas",
             "x": 467
@@ -290,7 +255,7 @@
               {
                 "type": "image",
                 "id": "b8ba5173-8e66-408f-8cb5-09b8e46f8001",
-                "asset": "13",
+                "asset": "11",
                 "info": {
                   "editorName": "vida1",
                   "x": 564,
@@ -300,13 +265,48 @@
               {
                 "type": "bitmapText",
                 "id": "77116a44-411a-401c-b062-1c4659ff1239",
-                "asset": "5",
+                "asset": "12",
                 "info": {
                   "editorName": "navesSalvadas",
                   "editorField": true,
                   "x": 522,
                   "y": 58,
                   "text": "000"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "group",
+          "id": "8c36d33e-da03-4028-b295-32d3848d0a37",
+          "info": {
+            "editorName": "groupCheer",
+            "editorField": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "871124d9-1dfa-47db-800a-f4dc41acd678",
+                "asset": "13",
+                "info": {
+                  "editorName": "prizeBanner",
+                  "editorField": true,
+                  "y": -128
+                }
+              },
+              {
+                "type": "bitmapText",
+                "id": "834132a2-ae80-4504-b02d-ec35d241328c",
+                "asset": "12",
+                "info": {
+                  "editorName": "cheerUpText",
+                  "editorField": true,
+                  "x": 241,
+                  "y": -89,
+                  "text": "Excelent",
+                  "fontSize": 64,
+                  "align": "center"
                 }
               }
             ]
@@ -340,52 +340,52 @@
     "4": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "prizeBanner"
-    },
-    "5": {
-      "file": "WebContent/assets/pack.json",
-      "section": "Fonts",
-      "asset": "PixelFont"
-    },
-    "6": {
-      "file": "WebContent/assets/pack.json",
-      "section": "graphics",
       "asset": "menuBtn"
     },
-    "7": {
+    "5": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "floor"
     },
-    "8": {
+    "6": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "portal"
     },
-    "9": {
+    "7": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "casilla"
     },
-    "10": {
+    "8": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "fusionApagado"
     },
-    "11": {
+    "9": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "fusion"
     },
-    "12": {
+    "10": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "cuadroVidas"
     },
-    "13": {
+    "11": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "vida"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "Fonts",
+      "asset": "PixelFont"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "prizeBanner"
     }
   },
   "prefab-table": {}
