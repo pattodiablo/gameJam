@@ -395,6 +395,12 @@
       "key": "shipReparada",
       "url": "assets/images/shipReparada.png",
       "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "makingOf",
+      "url": "assets/images/makingOf.png",
+      "overwrite": false
     }
   ],
   "Fonts": [{
@@ -406,7 +412,7 @@
     "ySpacing": 0
   }],
   "meta": {
-    "generated": "1580606302986",
+    "generated": "1580670769774",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",
