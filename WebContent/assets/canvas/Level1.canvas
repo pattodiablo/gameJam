@@ -67,6 +67,15 @@
           }
         },
         {
+          "type": "image",
+          "id": "2e7761b7-f181-4140-9b7a-75081f613939",
+          "asset": "3",
+          "info": {
+            "editorName": "bandas",
+            "x": 34
+          }
+        },
+        {
           "type": "group",
           "id": "dad8cded-7418-4aae-9d84-863b8854bfbc",
           "info": {
@@ -87,7 +96,7 @@
               {
                 "type": "image",
                 "id": "871124d9-1dfa-47db-800a-f4dc41acd678",
-                "asset": "3",
+                "asset": "4",
                 "info": {
                   "editorName": "prizeBanner",
                   "editorField": true,
@@ -97,7 +106,7 @@
               {
                 "type": "bitmapText",
                 "id": "834132a2-ae80-4504-b02d-ec35d241328c",
-                "asset": "4",
+                "asset": "5",
                 "info": {
                   "editorName": "cheerUpText",
                   "editorField": true,
@@ -114,7 +123,7 @@
         {
           "type": "image",
           "id": "57766c55-dda3-47eb-b3db-6862641e4584",
-          "asset": "5",
+          "asset": "6",
           "info": {
             "editorName": "visor",
             "editorField": true,
@@ -125,19 +134,13 @@
         {
           "type": "image",
           "id": "e0baf6ab-1289-4c70-8128-5e288b9266b1",
-          "asset": "6",
+          "asset": "7",
           "info": {
             "editorName": "menuBtn",
             "editorField": true,
             "x": 18,
             "y": 24
           }
-        },
-        {
-          "type": "image",
-          "id": "4e765ec9-b8dd-4961-9b70-011794301184",
-          "asset": "7",
-          "info": {"editorName": "fusion"}
         },
         {
           "type": "image",
@@ -158,6 +161,34 @@
         },
         {
           "type": "group",
+          "id": "eb82483a-9d00-427d-a36a-c022ea56660a",
+          "info": {
+            "editorName": "naves",
+            "editorField": true,
+            "setAll": [],
+            "children": []
+          }
+        },
+        {
+          "type": "image",
+          "id": "06845c29-c115-4029-8253-936971a9860a",
+          "asset": "10",
+          "info": {
+            "editorName": "fusionApagado",
+            "editorField": true
+          }
+        },
+        {
+          "type": "image",
+          "id": "4e765ec9-b8dd-4961-9b70-011794301184",
+          "asset": "11",
+          "info": {
+            "editorName": "fusion",
+            "editorField": true
+          }
+        },
+        {
+          "type": "group",
           "id": "da601ca7-cf97-461b-882b-f2169b0dca92",
           "info": {
             "editorName": "casillas",
@@ -167,52 +198,78 @@
               {
                 "type": "image",
                 "id": "172492f5-b03d-49fd-bf26-b15689e1b8d5",
-                "asset": "10",
+                "asset": "12",
                 "info": {
                   "editorName": "casilla1",
                   "editorField": true,
-                  "x": 121,
-                  "y": 832,
-                  "alpha": 0
+                  "name": "casilla1",
+                  "x": 131,
+                  "y": 845,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
+                  "alpha": 0,
+                  "data": "this.data={activada:false}"
                 }
               },
               {
                 "type": "image",
                 "id": "6dfbead3-f24a-48d6-bc25-312f158ed30f",
-                "asset": "10",
+                "asset": "12",
                 "info": {
                   "editorName": "casilla2",
                   "editorField": true,
-                  "x": 230,
-                  "y": 837,
+                  "name": "casilla2",
+                  "x": 241,
+                  "y": 846,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
                   "alpha": 0
                 }
               },
               {
                 "type": "image",
                 "id": "e62b53cf-eebf-4f16-bc47-0f65745376ae",
-                "asset": "10",
+                "asset": "12",
                 "info": {
                   "editorName": "casilla3",
                   "editorField": true,
-                  "x": 344,
-                  "y": 837,
+                  "name": "casilla3",
+                  "x": 354,
+                  "y": 849,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
                   "alpha": 0
                 }
               },
               {
                 "type": "image",
                 "id": "49b89035-13bd-4992-8f1b-6044df1c8171",
-                "asset": "10",
+                "asset": "12",
                 "info": {
                   "editorName": "casilla4",
                   "editorField": true,
-                  "x": 454,
-                  "y": 835,
+                  "name": "casilla4",
+                  "x": 466,
+                  "y": 845,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
                   "alpha": 0
                 }
               }
             ]
+          }
+        },
+        {
+          "type": "image",
+          "id": "3b95605d-67bd-4693-8e6e-51d7e0ea6df1",
+          "asset": "12",
+          "info": {
+            "editorName": "generarBtn",
+            "editorField": true,
+            "name": "casilla4",
+            "x": 289,
+            "y": 667,
+            "alpha": 0
           }
         },
         {
@@ -223,6 +280,47 @@
             "editorField": true,
             "setAll": [],
             "children": []
+          }
+        },
+        {
+          "type": "image",
+          "id": "7151c89e-5ba5-4ce7-abd7-1731816cdd2f",
+          "asset": "13",
+          "info": {
+            "editorName": "cuadroVidas",
+            "x": 467
+          }
+        },
+        {
+          "type": "group",
+          "id": "4c050d5b-7b12-4c27-9ac8-746117bed414",
+          "info": {
+            "editorName": "vidas",
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "b8ba5173-8e66-408f-8cb5-09b8e46f8001",
+                "asset": "14",
+                "info": {
+                  "editorName": "vida1",
+                  "x": 564,
+                  "y": 47
+                }
+              },
+              {
+                "type": "bitmapText",
+                "id": "77116a44-411a-401c-b062-1c4659ff1239",
+                "asset": "5",
+                "info": {
+                  "editorName": "navesSalvadas",
+                  "editorField": true,
+                  "x": 522,
+                  "y": 58,
+                  "text": "000"
+                }
+              }
+            ]
           }
         }
       ]
@@ -248,27 +346,27 @@
     "3": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "prizeBanner"
+      "asset": "bandas"
     },
     "4": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "prizeBanner"
+    },
+    "5": {
       "file": "WebContent/assets/pack.json",
       "section": "Fonts",
       "asset": "PixelFont"
     },
-    "5": {
+    "6": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "visor"
     },
-    "6": {
-      "file": "WebContent/assets/pack.json",
-      "section": "graphics",
-      "asset": "menuBtn"
-    },
     "7": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "fusion"
+      "asset": "menuBtn"
     },
     "8": {
       "file": "WebContent/assets/pack.json",
@@ -283,7 +381,27 @@
     "10": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
+      "asset": "fusionApagado"
+    },
+    "11": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "fusion"
+    },
+    "12": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
       "asset": "casilla"
+    },
+    "13": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "cuadroVidas"
+    },
+    "14": {
+      "file": "WebContent/assets/pack.json",
+      "section": "graphics",
+      "asset": "vida"
     }
   },
   "prefab-table": {}

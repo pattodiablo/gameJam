@@ -227,6 +227,174 @@
       "key": "ship1",
       "url": "assets/images/ship1.png",
       "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza5",
+      "url": "assets/images/pieza5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza6",
+      "url": "assets/images/pieza6.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "cableActivado",
+      "url": "assets/images/cableActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ciActivado",
+      "url": "assets/images/ciActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "fotoconductorActivado",
+      "url": "assets/images/fotoconductorActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "metalActivado",
+      "url": "assets/images/metalActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pistonActivado",
+      "url": "assets/images/pistonActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza7",
+      "url": "assets/images/pieza7.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pieza8",
+      "url": "assets/images/pieza8.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bisagraActivado",
+      "url": "assets/images/bisagraActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bobinaActivado",
+      "url": "assets/images/bobinaActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "tuercaActivado",
+      "url": "assets/images/tuercaActivado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "alas",
+      "url": "assets/images/alas.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "casco",
+      "url": "assets/images/casco.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "comunicacion",
+      "url": "assets/images/comunicacion.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "motor",
+      "url": "assets/images/motor.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "panel",
+      "url": "assets/images/panel.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "panelSolar",
+      "url": "assets/images/panelSolar.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "bandas",
+      "url": "assets/images/bandas.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ayudaCrear",
+      "url": "assets/images/ayudaCrear.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "cuadroVidas",
+      "url": "assets/images/cuadroVidas.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "vida",
+      "url": "assets/images/vida.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "fusionApagado",
+      "url": "assets/images/fusionApagado.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ship2",
+      "url": "assets/images/ship2.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ship3",
+      "url": "assets/images/ship3.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ship4",
+      "url": "assets/images/ship4.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "ship5",
+      "url": "assets/images/ship5.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "shipReparada",
+      "url": "assets/images/shipReparada.png",
+      "overwrite": false
     }
   ],
   "Fonts": [{
@@ -238,7 +406,7 @@
     "ySpacing": 0
   }],
   "meta": {
-    "generated": "1580569266049",
+    "generated": "1580606302986",
     "app": "Phaser Editor",
     "url": "http://phasereditor.boniatillo.com",
     "version": "1.0",
