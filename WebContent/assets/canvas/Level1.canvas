@@ -110,7 +110,7 @@
                 "info": {
                   "editorName": "cheerUpText",
                   "editorField": true,
-                  "x": 195,
+                  "x": 241,
                   "y": -89,
                   "text": "Excelent",
                   "fontSize": 64,
@@ -122,19 +122,8 @@
         },
         {
           "type": "image",
-          "id": "57766c55-dda3-47eb-b3db-6862641e4584",
-          "asset": "6",
-          "info": {
-            "editorName": "visor",
-            "editorField": true,
-            "x": 4,
-            "y": -120
-          }
-        },
-        {
-          "type": "image",
           "id": "e0baf6ab-1289-4c70-8128-5e288b9266b1",
-          "asset": "7",
+          "asset": "6",
           "info": {
             "editorName": "menuBtn",
             "editorField": true,
@@ -145,7 +134,7 @@
         {
           "type": "image",
           "id": "4929cc82-021a-41dd-b4e0-2ff64be44980",
-          "asset": "8",
+          "asset": "7",
           "info": {
             "editorName": "floor",
             "editorField": true,
@@ -156,7 +145,7 @@
         {
           "type": "image",
           "id": "6e0103a8-00a7-46cb-8dea-7d9905d49a29",
-          "asset": "9",
+          "asset": "8",
           "info": {"editorName": "portal"}
         },
         {
@@ -167,6 +156,78 @@
             "editorField": true,
             "setAll": [],
             "children": []
+          }
+        },
+        {
+          "type": "group",
+          "id": "da601ca7-cf97-461b-882b-f2169b0dca92",
+          "info": {
+            "editorName": "casillas",
+            "editorField": true,
+            "setAll": [],
+            "children": [
+              {
+                "type": "image",
+                "id": "172492f5-b03d-49fd-bf26-b15689e1b8d5",
+                "asset": "9",
+                "info": {
+                  "editorName": "casilla1",
+                  "editorField": true,
+                  "name": "casilla1",
+                  "x": 131,
+                  "y": 845,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
+                  "alpha": 0,
+                  "data": "this.data={activada:false}"
+                }
+              },
+              {
+                "type": "image",
+                "id": "6dfbead3-f24a-48d6-bc25-312f158ed30f",
+                "asset": "9",
+                "info": {
+                  "editorName": "casilla2",
+                  "editorField": true,
+                  "name": "casilla2",
+                  "x": 241,
+                  "y": 846,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "image",
+                "id": "e62b53cf-eebf-4f16-bc47-0f65745376ae",
+                "asset": "9",
+                "info": {
+                  "editorName": "casilla3",
+                  "editorField": true,
+                  "name": "casilla3",
+                  "x": 354,
+                  "y": 849,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
+                  "alpha": 0
+                }
+              },
+              {
+                "type": "image",
+                "id": "49b89035-13bd-4992-8f1b-6044df1c8171",
+                "asset": "9",
+                "info": {
+                  "editorName": "casilla4",
+                  "editorField": true,
+                  "name": "casilla4",
+                  "x": 466,
+                  "y": 845,
+                  "scale.x": 0.2,
+                  "scale.y": 0.2,
+                  "alpha": 0
+                }
+              }
+            ]
           }
         },
         {
@@ -188,81 +249,9 @@
           }
         },
         {
-          "type": "group",
-          "id": "da601ca7-cf97-461b-882b-f2169b0dca92",
-          "info": {
-            "editorName": "casillas",
-            "editorField": true,
-            "setAll": [],
-            "children": [
-              {
-                "type": "image",
-                "id": "172492f5-b03d-49fd-bf26-b15689e1b8d5",
-                "asset": "12",
-                "info": {
-                  "editorName": "casilla1",
-                  "editorField": true,
-                  "name": "casilla1",
-                  "x": 131,
-                  "y": 845,
-                  "scale.x": 0.2,
-                  "scale.y": 0.2,
-                  "alpha": 0,
-                  "data": "this.data={activada:false}"
-                }
-              },
-              {
-                "type": "image",
-                "id": "6dfbead3-f24a-48d6-bc25-312f158ed30f",
-                "asset": "12",
-                "info": {
-                  "editorName": "casilla2",
-                  "editorField": true,
-                  "name": "casilla2",
-                  "x": 241,
-                  "y": 846,
-                  "scale.x": 0.2,
-                  "scale.y": 0.2,
-                  "alpha": 0
-                }
-              },
-              {
-                "type": "image",
-                "id": "e62b53cf-eebf-4f16-bc47-0f65745376ae",
-                "asset": "12",
-                "info": {
-                  "editorName": "casilla3",
-                  "editorField": true,
-                  "name": "casilla3",
-                  "x": 354,
-                  "y": 849,
-                  "scale.x": 0.2,
-                  "scale.y": 0.2,
-                  "alpha": 0
-                }
-              },
-              {
-                "type": "image",
-                "id": "49b89035-13bd-4992-8f1b-6044df1c8171",
-                "asset": "12",
-                "info": {
-                  "editorName": "casilla4",
-                  "editorField": true,
-                  "name": "casilla4",
-                  "x": 466,
-                  "y": 845,
-                  "scale.x": 0.2,
-                  "scale.y": 0.2,
-                  "alpha": 0
-                }
-              }
-            ]
-          }
-        },
-        {
           "type": "image",
           "id": "3b95605d-67bd-4693-8e6e-51d7e0ea6df1",
-          "asset": "12",
+          "asset": "9",
           "info": {
             "editorName": "generarBtn",
             "editorField": true,
@@ -285,7 +274,7 @@
         {
           "type": "image",
           "id": "7151c89e-5ba5-4ce7-abd7-1731816cdd2f",
-          "asset": "13",
+          "asset": "12",
           "info": {
             "editorName": "cuadroVidas",
             "x": 467
@@ -301,7 +290,7 @@
               {
                 "type": "image",
                 "id": "b8ba5173-8e66-408f-8cb5-09b8e46f8001",
-                "asset": "14",
+                "asset": "13",
                 "info": {
                   "editorName": "vida1",
                   "x": 564,
@@ -361,22 +350,22 @@
     "6": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "visor"
+      "asset": "menuBtn"
     },
     "7": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "menuBtn"
+      "asset": "floor"
     },
     "8": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "floor"
+      "asset": "portal"
     },
     "9": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "portal"
+      "asset": "casilla"
     },
     "10": {
       "file": "WebContent/assets/pack.json",
@@ -391,14 +380,9 @@
     "12": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
-      "asset": "casilla"
-    },
-    "13": {
-      "file": "WebContent/assets/pack.json",
-      "section": "graphics",
       "asset": "cuadroVidas"
     },
-    "14": {
+    "13": {
       "file": "WebContent/assets/pack.json",
       "section": "graphics",
       "asset": "vida"
